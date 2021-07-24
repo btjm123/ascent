@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Ascent - Peer Mentoring | Exam Preparation</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/index/bootstrap.min.css" >
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="/css/index/line-icons.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="/css/index/slicknav.css">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" type="text/css" href="/css/index/nivo-lightbox.css" >
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="/css/index/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="/css/index/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="/css/index/responsive.css">
+
+    <style>
+      .csscolumn {
+        -webkit-column-count: 2;  /* Chrome, Safari, Opera */
+        -moz-column-count: 2;     /* Firefox */
+        column-count: 2;
+      }
+
+      .csscolumn {
+        width: 70%;
+      }
+      .csscolumn + .csscolumn {
+        margin: 100px;
+        padding-top: 10px;
+      }
+      .top-nav-collapse {
+        background-color: black !important;
+      }
+      .top-nav-collapse .navbar-nav li.active a.nav-link {
+        color: white !important;
+        text-decoration-color: white !important;
+      }
+      .top-nav-collapse .navbar-nav .nav-link {
+        color: #1A85E5 !important;
+      }
+      .navbar-expand-lg .navbar-nav li > a:before {
+        background-color: #1A85E5;
+      }
+      .signup-button{
+        color: #65a1c9;
+      }
+      .signup-button:hover{
+        color:white;
+      }
+      .carousel-head{
+        font-size: 3.5vw !important;
+        margin-top:1000px;
+      }
+      .right-align{
+        text-align:right !important;
+      }
+      .counter-part{
+        margin:10px !important; 
+        width:200px; 
+        height:300px; 
+        border-width: 10px; 
+        border-radius:5px; 
+        border: #1A85E5; 
+        border-style: solid; 
+        color:#1A85E5; 
+        text-align: center; 
+        display:flex;
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <script>
+      function flip(event){
+        var element = event.currentTarget;
+        if (element.className === "card") {
+          if(element.style.transform == "rotateY(180deg)") {
+            element.style.transform = "rotateY(0deg)";
+          }
+          else {
+            element.style.transform = "rotateY(180deg)";
+          }
+        }
+      };
+    </script>
+    <header class="flex" id="home" style="height:50px; background-color: #232323;">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar" style="background-color: #232323;">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+            </button>
+            <a class="navbar-brand"><img src="../img/index/Website new_Artboard 1.png" style="width:5vw; height: 3vw; margin:1vw" alt=""></a>
+          </div>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item active">
+                <a class="nav-link" href="#home">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#peertutoring">
+                  Peer Tutoring
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">
+                  FAQ
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#dataprotection">
+                  Data Protection
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutus">
+                  About Us
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactus">
+                  Contact Us
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/admin">
+                  Admin
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Mobile Menu Start -->
+        <ul class="mobile-menu">
+          <li>
+            <a class="page-scrool" href="#home">Home</a>
+          </li>
+          <li>
+            <a class="page-scrool" href="#peertutoring">Peer Tutoring</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#faq">FAQ</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#dataprotection">Data Protection</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#aboutus">About Us</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#contactus">Contact Us</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="/admin">Admin</a>
+          </li>
+        </ul>
+        <!-- Mobile Menu End -->
+
+      </nav>
+      <!-- Navbar End -->
+      <!-- Main Carousel Section Start -->
+      
+      <!-- <div id="main-slide" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel1" data-slide-to="1"></li>
+          <li data-target="#carousel1" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="/img/index/slider/WEBSITE-09.png" alt="First slide">
+            <div class="carousel-caption d-md-block"> -->
+              <!-- <h1 class="wow fadeInDown heading" data-wow-delay=".4s">Verity</h1>
+              <p class="fadeInUp wow" data-wow-delay=".6s">Shaping challenges into possibilities, defying artificial barriers to opportunity</p> -->
+              <!-- <a href="#" class="fadeInLeft wow btn btn-common btn-lg" data-wow-delay=".6s">Get Ticket</a>
+              <a href="#" class="fadeInRight wow btn btn-border btn-lg" data-wow-delay=".6s">Explore More</a> -->
+            <!-- </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/index/slider/WEBSITE-10.png" alt="Second slide">
+            <div class="carousel-caption d-md-block"> -->
+              <!-- <h1 class="wow bounceIn heading" data-wow-delay=".7s">Ascent</h1>
+              <p class="fadeInUp wow" data-wow-delay=".6s">Fostering unity, collaboration and the spark of learning between students from all backgrounds</p> -->
+              <!-- <a href="#" class="fadeInUp wow btn btn-border btn-lg" data-wow-delay=".8s">Learn More</a> -->
+            <!-- </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/index/slider/WEBSITE-11.png" alt="Third slide">
+            <div class="carousel-caption d-md-block"> -->
+              <!-- <h1 class="wow fadeInUp heading" data-wow-delay=".6s">Remedy</h1>
+              <p class="fadeInUp wow" data-wow-delay=".6s">Providing voice to the voiceless, restoring the human dignity of the disenfranchise</p>
+              <a href="#" class="fadeInUp wow btn btn-common btn-lg" data-wow-delay=".8s">Explore</a> -->
+            <!-- </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+          <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-left"></i></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+          <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-right"></i></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div> -->
+      <!-- Main Carousel Section End -->
+
+    </header>
+    
+    <!-- Header Area wrapper End -->
+     
+    <!-- Services Section Start -->
+    <section id="home" class="services section-padding">
+      <div class="container">
+      <div style="margin:40px; flex-direction: column;" class="flex">
+        <div style="width:100vw" class="flex">
+          <h1 style="color: #1A85E5;"class="section-subsubhead head"><br>A S C E N T</h1>
+        </div>
+        <div class="head-container">
+          <p style="font-size:18px; text-align:center;"><br>is a personalised peer tutoring platform provider for students across all JCs in Singapore that is open for all to join. We aim to create an equalized playing field by providing a long term option which students will always be able to turn to in order to complement their learning efforts &mdash; and hopefully achieve the dreams they are striving towards. 
+          </p>
+        </div>
+        <br>
+          <button style="margin: 0 auto; background-color: #1A85E5; border-color: #1A85E5;"> 
+          <a class="nav-link button-text" href="#aboutus">
+              LEARN MORE
+          </a>
+          </button> 
+      </div>
+    </div>
+    </section>
+        <!-- Counter Area Start-->
+        <section class="counter-section">
+          <div>
+            <div class="flex row">
+              <!-- Counter Item -->
+              <div class="flex col-md-3 col-lg-3 col-xs-10 col-sm-10">
+                <div class="counter-part counter wow fadeInRight" data-wow-delay="0.3s">
+                  <span style="height: 150px;"></span>
+                  <p id="numberMentors" class="counter-text"><%= numberMentors %></p>
+                  <span style="height: 70px;"></span>
+                  <span class="countdown-text">Peer Mentors</span>
+                </div>
+              </div>
+              <!-- Counter Item -->
+              <div class="flex col-md-3 col-lg-3 col-xs-12 col-sm-12 text-center">
+                <div class="counter-part counter wow fadeInRight" data-wow-delay="0.3s">
+                  <span style="height: 150px;"></span>
+                  <p id="numberMentees" class="counter-text"><%= numberMentees %></p>
+                  <span style="height: 70px;"></span>
+                  <span class="countdown-text">Mentees</span>
+                </div>
+              </div>
+              <!-- Counter Item -->
+              <div class="flex col-md-3 col-lg-3 col-xs-12 col-sm-12 text-center">
+                <div class="counter-part counter wow fadeInRight" data-wow-delay="0.3s">
+                  <span style="height: 150px;"></span>
+                  <p id="numberSubjects" class="counter-text">11</p>
+                  <span style="height: 70px;"></span>
+                  <span class="countdown-text">Subjects</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr>
+        <!-- Counter Area End-->
+    <section>
+      <div class="container browser-peer">
+        <div style="display:table; width:25%; float:left; height:1263px;">
+          <img src="../img/index/6.png" style="display: table-cell; margin-top:180px; width:100%">
+        </div>
+        <div class="csscolumn" style="float:right;">
+          <!-- Services item -->
+          <div class="services-padding">
+            <div class="services-item2 wow fadeInDown" data-wow-delay="0.2s">
+              <div class="icon">
+                <i class="lni-gift" style='color:#1A85E5;'></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Flexible Learning Sessions</a></h3>
+                <p class="services-text">Whether through an online/physical consultation or a quick Q&A over text, Ascent provides a flexible channel between you and our peer volunteers for learning to take place!</p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="services-padding">
+            <div class="services-item2 wow fadeInDown" data-wow-delay="0.2s">
+              <div class="icon">
+                <i class="lni-cup" style='color:#1A85E5;'></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Open to all</a></h3>
+                <p class="services-text"> Regardless of background, school or learning ability, Ascent believes in providing access to every single student who wishes to utilize our platform.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="services-padding">
+            <div class="services-item2 wow fadeInDown" data-wow-delay="0.2s">
+              <div class="icon">
+                <i class="lni-target" style='color:#1A85E5;'></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Student Driven</a></h3>
+                <p class="services-text">While Ascent is not meant to be a replacement for teachers or private tuition, we add value by providing a platform for collaborative learning which enables students to positively reinforce their learning through a synergistic feedback loop.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="services-padding">
+            <div class="services-item2 wow fadeInDown" data-wow-delay="0.2s">
+              <div class="icon">
+                <i class="lni-heart" style='color:#1A85E5;'></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Personalized Approach</a></h3>
+                <p class="services-text">Our pool of mentees and mentors will be drawn from databases localised to your school, assuring that there will be minimal syllabus clashes and learning bottlenecks.
+                </p>
+              </div>
+            </div>
+          </div>
+           <!-- Services item -->
+          <div class="services-padding">
+            <div class="services-item2 wow fadeInDown" data-wow-delay="0.2s">
+              <div class="icon">
+                <i class="lni-users" style='color:#1A85E5;'></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Join a Like&mdash;minded Student Community</a></h3>
+                <p class="services-text">Whether it be searching for a study buddy, seeking for academic help or looking to offer your own academic expertise, Ascent provides the opportunity for you to join a larger network of like&mdash;minded students and expand your current social circle! </p>
+              </div>
+            </div>
+          </div>
+           <!-- Services item -->
+          <div class="services-padding">
+            <div class="services-item2 wow fadeInDown" data-wow-delay="0.2s">
+              <div class="icon">
+                <i class="lni-bubble" style='color:#1A85E5;'></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Dynamic Targeting Systems</a></h3>
+                <p class="services-text">Through the incorporation of the Maximum Cardinality Bipartite Matching Algorithm, our matching processes are streamlined, made efficient and will always achieve an optimal pairing between tutors and tutees.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mobile-peer">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Why Choose Ascent?</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row services-wrapper">
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.2s">
+              <div class="icon">
+                <i class="lni-gift"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Flexible Learning Sessions</a></h3>
+                <p class="services-text">Whether through an online/physical consultation or a quick Q&A over text, Ascent provides a flexible channel between you and our peer volunteers for learning to take place!</p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.2s">
+              <div class="icon">
+                <i class="lni-cup"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Open to all</a></h3>
+                <p class="services-text">Regardless of background, school or learning ability, Ascent believes in providing access to every single student who wishes to utilize our platform.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.2s">
+              <div class="icon">
+                <i class="lni-target"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Student Driven</a></h3>
+                <p class="services-text">While Ascent is not meant to be a replacement for teachers or private tuition, we add value by providing a platform for collaborative learning which enables students to positively reinforce their learning through a synergistic feedback loop.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.2s">
+              <div class="icon">
+                <i class="lni-heart"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Personalized Approach</a></h3>
+                <p class="services-text">Our pool of mentees and mentors will be drawn from databases localised to your school, assuring that there will be minimal syllabus clashes and learning bottlenecks.
+                </p>
+              </div>
+            </div>
+          </div>
+           <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.2s">
+              <div class="icon">
+                <i class="lni-users"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Join a Like-minded Student Community</a></h3>
+                <p class="services-text">Whether it be searching for a study buddy, seeking for academic help or looking to offer your own academic expertise, Ascent provides the opportunity for you to join a larger network of like-minded students and expand your current social circle! </p>
+              </div>
+            </div>
+          </div>
+           <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.2s">
+              <div class="icon">
+                <i class="lni-bubble"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Dynamic Targeting Systems</a></h3>
+                <p class="services-text">Through the incorporation of the Maximum Cardinality Bipartite Matching Algorithm, our matching processes are streamlined, made efficient and will always achieve an optimal pairing between tutors and tutees.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <p style="clear: both;"></p>
+      <br><br>
+      <div class="browser-peer">
+        <div class="container flex">
+            <h1 class="section-title wow fadeInUp right-align" data-wow-delay="0.2s">Open Ascent Sessions</h1>
+            <p style="max-width:800px; width:80vw; margin:50px">Open Ascent Sessions are our way of providing a channel between you and our peer volunteers for learning to take place!
+              The first session that you sign up for will be a TRIAL SESSION between you and your tutor/tutee; after which you will have the option of continuing on with your partner or requesting a reassignment through the feedback forms that we will be sending to your inboxes!
+              </p>
+        </div>
+      </div>
+      <div class="mobile-peer">
+        <div class=" flex container" style="flex-direction: column;">
+          <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Open Ascent Sessions</h1>
+          <p style="max-width:800px; width:80vw; text-align: justify;">Open Ascent Sessions are our way of providing a channel between you and our peer volunteers for learning to take place!
+            The first session that you sign up for will be a TRIAL SESSION between you and your tutor/tutee; after which you will have the option of continuing on with your partner or requesting a reassignment through the feedback forms that we will be sending to your inboxes!
+            </p>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section End -->
+    
+
+    <!-- About Section Start -->
+    <section id="peertutoring" class="section-padding" style="clear:both">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="space-out section-title wow fadeInUp" style="font-family:'Arial Bold' !important" data-wow-delay="0.2s">Peer Tutoring</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row flex">
+          <div class="col-lg-4 col-md-6 col-xs-12 flex">
+            <div class="school-card card">
+              <div class="content">
+                <div class="front">
+                  <img class="blog-image img-fluid" src="/img/index/blog/access_logo.png" alt="">
+                  <h1 class="flip-btn">A*CCESS VICTORIA</h1>
+                  <h1 class="flip-btn">Victoria Junior College</h1>
+                </div>
+                <div class="back">
+                  <h1 >I want to be a<br> <a class="signup-button" href="/mentor">mentor |</a><a class="signup-button" href="/mentee"> mentee</a></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12 flex">
+            <div class="school-card card">
+              <div class="content">
+                <div class="front">
+                  <img class="blog-image img-fluid" src="/img/index/blog/projectoracle_logo.png" alt="">
+                  <h1 class="flip-btn">Project Oracle</h1>
+                  <h1 class="flip-btn">National Junior College</h1>
+                </div>
+                <div class="back">
+                  <h1 ><a class="signup-button" href="https://projectoracle2020.wixsite.com/website">Go to site</a></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12 flex">
+            <div class="card school-card">
+              <div class="content">
+                <div class="front">
+                  <img class="blog-image img-fluid" src="/img/index/Ascent back default-14.png" alt="">
+                  <h1 class="flip-btn">PlaceHolder</h1>
+                  <h1 class="flip-btn">Raffles Instituition</h1>
+                </div>
+                <div class="back">
+                  <h1>I want to be a<br> <a class="signup-button" href="/mentor">mentor |</a><a class="signup-button" href="/mentee"> mentee</a></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-xs-12 flex">
+            <div class="school-card card">
+              <div class="content">
+                <div class="front">
+                  <img class="blog-image img-fluid" src="/img/index/Ascent back default-14.png" alt="">
+                  <h1 class="flip-btn">PlaceHolder</h1>
+                  <h1 class="flip-btn">Dunman High School</h1>
+                </div>
+                <div class="back">
+                  <h1>I want to be a<br> <a class="signup-button" href="/mentor">mentor |</a><a class="signup-button" href="/mentee"> mentee</a></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12 flex">
+            <div class="school-card card">
+              <div class="content">
+                <div class="front">
+                  <img class="blog-image img-fluid" src="/img/index/Ascent back default-14.png" alt="">
+                  <h1 class="flip-btn">PlaceHolder</h1>
+                  <h1 class="flip-btn">Yishun Innova Junior College</h1>
+                </div>
+                <div class="back">
+                  <h1>I want to be a<br> <a class="signup-button" href="/mentor">mentor |</a><a class="signup-button" href="/mentee"> mentee</a></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12 flex">
+            <div class="school-card card">
+              <div class="content">
+                <div class="front">
+                  <img class="blog-image img-fluid" src="/img/index/Ascent back default-14.png" alt="">
+                  <h1 class="flip-btn">PlaceHolder</h1>
+                  <h1 class="flip-btn">Anglo Chinese School (Independent)</h1>
+                </div>
+                <div class="back">
+                  <h1>I want to be a<br> <a class="signup-button" href="/mentor">mentor |</a><a class="signup-button" href="/mentee"> mentee</a></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12 flex">
+            <div class="school-card card">
+              <div class="content">
+                <div class="front">
+                  <img class="blog-image img-fluid" src="/img/index/blog/Omega.png" alt="">
+                  <h1 class="flip-btn">Project Omega</h1>
+                  <h1 class="flip-btn">Temasek Junior College</h1>
+                </div>
+                <div class="back">
+                  <h1>I want to be a<br> <a class="signup-button" href="/mentor">mentor |</a><a class="signup-button" href="/mentee"> mentee</a></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12 flex">
+            <div class="school-card card">
+              <div class="content">
+                <div class="front">
+                  <img class="blog-image img-fluid" src="/img/index/blog/LOGO V.2.png" alt="">
+                  <h1 class="flip-btn">Illuminare</h1>
+                  <h1 class="flip-btn">Nanyang Junior College</h1>
+                </div>
+                <div class="back">
+                  <h1>I want to be a<br> <a class="signup-button" href="/mentor">mentor |</a><a class="signup-button" href="/mentee"> mentee</a></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+      </div>
+    </section>
+  
+    <!-- <div class="col-12 text-center">
+      <a href="#" class="btn btn-common">Read More News</a>
+    </div>
+    <section id="peertutoring" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Verity</h1>
+              <p class="wow fadeInDown" data-wow-delay="0.2s">Find out more about us! </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <div class="about-item">
+              <img class="img-fluid" src="/img/index/about/img1.jpg" alt="">
+              <div class="about-text">
+                <h3><a href="#">Our Mission</a></h3>
+                <p>Empowering every student and enabling them to strive for excellence, promoting mutual understanding and lifting artificial barriers that hinder learning and progress. </p> -->
+                <!-- <a class="btn btn-common btn-rm" href="#">Read More</a> -->
+              <!-- </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <div class="about-item">
+              <img class="img-fluid" src="/img/index/about/img2.jpg" alt="">
+              <div class="about-text">
+                <h3><a href="#">Our Vision</a></h3>
+                <p>Beginning with voluntary services for students, by students, we hope to create an equalized learning environment where students of all backgrounds can seek the help they need in navigating the education system. </p> -->
+                <!-- <a class="btn btn-common btn-rm" href="#">Read More</a> -->
+              <!-- </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <div class="about-item">
+              <img class="img-fluid" src="/img/index/about/img3.jpg" alt="">
+              <div class="about-text">
+                <h3><a href="#">Our Motivation</a></h3>
+                <p>Coming from a lower-income background and having interacted extensively with students from disenfranchised households, improving educational equity has always been one of Kelvin’s goals. An aspiring public sector economist, Kelvin is determined to increase accessibility to opportunities for all, regardless of background ⸺ to not only improve society’s sense of fairness and belief in one another, but to productively utilize our human capital. Inequality is rising exponentially, and we believe that education is the passport to halting this trend. </p>
+                <a class="btn btn-common btn-rm" href="#">Read More</a> -->
+              <!-- </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- About Section End -->
+
+    <!-- Ask Question Section Start -->
+    <section id="faq" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">FAQ</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12">
+            <div class="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionOne" aria-expanded="true" aria-controls="collapseOne">
+                    <i class="lni-pencil"></i> Are there any requirements I have to meet to be a Mentor?
+                  </div>
+                </div>
+                <div id="questionOne" class="collapse" aria-labelledby="headingOne" data-parent="#question">
+                  <div class="card-body">
+                    <p>In alignment with our programme’s purpose, we strongly believe in empowering fellow Victorians to help each other. As such, we’re more of a collaborative platform rather than a tutoring system, a place where we can come together simply to support one another.</p>
+                    <br>
+                    <p>Hence, it’s all right if you’re not scoring straight As or you can’t answer some questions. All you need is to be willing and genuine in helping others so that we can all learn and support one another.</p>
+                    <br>
+                    <p>For those keen to help, we can discuss your suitability to be matched to subjects.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <div class="header-title" data-toggle="collapse" data-target="#questionTwo" aria-expanded="false" aria-controls="questionTwo">
+                      <i class="lni-pencil"></i> Will VIA hours be awarded?
+                    </div>
+                </div>
+                <div id="questionTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#question">
+                  <div class="card-body">
+                    <p>Ascent is a student-led initiative that aims to be a platform for students to provide mutual support and help each other in their learning. This programme is by students for students. NO VIA hours are awarded for any participation in this programme.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionThree" aria-expanded="false" aria-controls="questionThree">
+                    <i class="lni-pencil"></i>  How can I withdraw from this programme?  
+                  </div>
+                </div>
+                <div id="questionThree" class="collapse" aria-labelledby="headingThree" data-parent="#question">
+                  <div class="card-body">
+                    <p>Do inform your respective Subject Coordinators about your withdrawal. If you have a Mentee under you, you would need to give your Subject Coordinator at least one week notice that you are withdrawing. This is so that they can find a suitable replacement for your Mentee.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionFour" aria-expanded="false" aria-controls="questionFour">
+                   <i class="lni-pencil"></i> What platform(s) can I use to conduct the sessions?
+                  </div>
+                </div>
+                <div id="questionFour" class="collapse" aria-labelledby="headingThree" data-parent="#question">
+                  <div class="card-body">
+                    <p>You can use any platform that you and your Mentee are comfortable with. Some platforms you can use are Google Meet, Zoom, Skype, Discord, WhatsApp etc.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo2">
+                    <div class="header-title" data-toggle="collapse" data-target="#questionTwo" aria-expanded="false" aria-controls="questionTwo">
+                      <i class="lni-pencil"></i>  How will the process of matching Mentors and Mentees work?
+                    </div>
+                </div>
+                <div id="questionTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#question">
+                  <div class="card-body">
+                    <p>Mentees and Mentors will be matched via a revolutionary computer algorithm automatically, cutting the need for laborius manual labour. This means Ascent will be scalable in the long run as we anticipate a larger consumer base in the future.</p>
+                    <br>
+                    <p>For those more technical, each set of avaliable Mentors and Mentees will be divided into a graph of binary sets. From their individual preferences (subject, time, level etc.), we will construct a fully-featured biparaite graph. </p>
+                    <br>
+                    <p>To tackle this Maximum Cardinality Biparite Matching Problem, the platform utilises a modified Ford-Fulkerson Network Flow Algorithm to determine the maximum and optimal matching from the avaliable pool of mentors and mentees.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12">
+            <div class="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne2">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionOne2" aria-expanded="true" aria-controls="collapseOne">
+                    <i class="lni-pencil"></i> When will I be notified if I can begin?
+                  </div>
+                </div>
+                <div id="questionOne2" class="collapse" aria-labelledby="headingOne" data-parent="#question">
+                  <div class="card-body">
+                    <p>After processing your registration, we will contact you within 3 working days with more information. However, as we are all students and there are large volumes of applications, we seek your understanding if there are delays.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionFive" aria-expanded="false" aria-controls="questionFive">
+                    <i class="lni-pencil"></i> Is there a commitment period that I have to abide by?
+                  </div>
+                </div>
+                <div id="questionFive" class="collapse" aria-labelledby="headingThree" data-parent="#question">
+                  <div class="card-body">
+                    <p>No, there isn’t. However, we strongly encourage you to see through your agreed sessions with your Mentee to be accountable to him/her.
+                      <br>
+                    <p>Additionally, if these are foreseeable academic commitments, we would advise you to not overcommit from the beginning.</p>
+                      <br>
+                    <p>If you intend to withdraw, do let your respective Subject Coordinators know. If you have a Mentee under you, you would need to give your Subject Coordinator at least one week notice.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionSix" aria-expanded="false" aria-controls="questionSix">
+                    <i class="lni-pencil"></i>My Mentee is rude/uncooperative. What can I do?
+                  </div>
+                </div>
+                <div id="questionSix" class="collapse" aria-labelledby="headingThree" data-parent="#question">
+                  <div class="card-body">
+                    <p>In the event that this occurs, kindly inform your respective Subject Coordinators, who will then inform the HR Legislative Team. They will advise you further and mediate the situation. If you have any feedback/concerns at any point in time, do reach out to your Subject Coordinators.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionSeven" aria-expanded="false" aria-controls="questionSeven">
+                    <i class="lni-pencil"></i>Will my personal data be secure?
+                  </div>
+                </div>
+                <div id="questionSeven" class="collapse" aria-labelledby="headingThree" data-parent="#question">
+                  <div class="card-body">
+                    <p>[add ans here]</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionEight" aria-expanded="false" aria-controls="questionEight">
+                    <i class="lni-pencil"></i>Is there a commitment period that I have to abide by?
+                  </div>
+                </div>
+                <div id="questionEight" class="collapse" aria-labelledby="headingThree" data-parent="#question">
+                  <div class="card-body">
+                    <p>[add ans here]</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Ask Question Section End -->
+
+    <!-- Main Carousel Section Start -->
+    <section id="dataprotection">
+      <div id="carousel1" class="carousel-1 carousel slide " data-ride="carousel" data-interval="false">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel1" data-slide-to="1"></li>
+          <li data-target="#carousel1" data-slide-to="2"></li>
+          <li data-target="#carousel1" data-slide-to="3"></li>
+          <li data-target="#carousel1" data-slide-to="4"></li>
+          <li data-target="#carousel1" data-slide-to="5"></li>
+          <li data-target="#carousel1" data-slide-to="6"></li>
+          <li data-target="#carousel1" data-slide-to="7"></li>
+          <li data-target="#carousel1" data-slide-to="8"></li>
+          <li data-target="#carousel1" data-slide-to="9"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 mx-auto"  style="max-width:800px" src="../img/index/Privacy slides/privacy-01.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 mx-auto"  style="max-width:800px" src="../img/index/Privacy slides/privacy-02.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 mx-auto"  style="max-width:800px" src="../img/index/Privacy slides/privacy-03.png" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 mx-auto"  style="max-width:800px" src="../img/index/Privacy slides/privacy-04.png" alt="Fourth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 mx-auto"  style="max-width:800px" src="../img/index/Privacy slides/privacy-05.png" alt="Fifth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 mx-auto"  style="max-width:800px" src="../img/index/Privacy slides/privacy-06.png" alt="Sixth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 mx-auto"  style="max-width:800px" src="../img/index/Privacy slides/privacy-07.png" alt="Seventh slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 mx-auto"  style="max-width:800px" src="../img/index/Privacy slides/privacy-08.png" alt="Eighth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 mx-auto"  style="max-width:800px" src="../img/index/Privacy slides/privacy-09.png" alt="Ninth slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+          <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-left" style="font-size: 50px;"></i></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+          <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-right" style="font-size: 50px;"></i></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+      <!-- Main Carousel Section End -->
+
+    <!-- Ticket Pricing Area Start -->
+    <!-- <section id="pricing" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Responsibilities</h1>
+              <p class="wow fadeInDown" data-wow-delay="0.2s">Join us as your capacity as a student!</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
+            <div class="price-block-wrapper wow fadeInLeft" data-wow-delay="0.2s">
+              <div class="icon">
+                <i class="lni-write"></i>
+              </div>
+              <div class="colmun-title">
+                <h5>Basic Pass</h5>
+              </div>
+              <div class="price">
+                <h2>$29</h2>
+                <p>452 Tickets Available</p>
+              </div>
+              <div class="pricing-list">
+                <ul>
+                  <li><i class="lni-check-mark-circle"></i><span class="text">Entrance</span></li>
+                  <li><i class="lni-check-mark-circle"></i><span class="text">Coffee Break</span></li>
+                  <li><i class="lni-check-mark-circle"></i><span class="text">Lunch on all days</span></li>
+                  <li><i class="lni-close"></i><span class="text">Access to all areas</span></li>
+                  <li><i class="lni-close"></i><span class="text">Certificate</span></li>
+                  <li><i class="lni-check-mark-circle"></i><span class="text">Workshop</span></li>
+                </ul>
+              </div>
+              <a href="#" class="btn btn-common">Buy Ticket</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
+            <div class="price-block-wrapper wow fadeInUp" data-wow-delay="0.3s">
+              <div class="icon">
+                <i class="lni-layers"></i>
+              </div>
+              <div class="colmun-title">
+                <h5>Standard Pass</h5>
+              </div>
+              <div class="price">
+                <h2>$40</h2>
+                <p>452 Tickets Available</p>
+              </div>
+              <div class="pricing-list">
+                <ul>
+                  <li><i class="lni-check-mark-circle"></i><span class="text">Entrance</span></li>
+                  <li><i class="lni-check-mark-circle"></i><span class="text">Coffee Break</span></li>
+                  <li><i class="lni-check-mark-circle"></i><span class="text">Lunch on all days</span></li>
+                  <li><i class="lni-close"></i><span class="text">Access to all areas</span></li>
+                  <li><i class="lni-check-mark-circle"></i><span class="text">Certificate</span></li>
+                  <li><i class="lni-close"></i><span class="text">Workshop</span></li>
+                </ul>
+              </div>
+              <a href="#" class="btn btn-common">Buy Ticket</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
+            <div class="price-block-wrapper wow fadeInRight" data-wow-delay="0.4s">
+              <div class="icon">
+                <i class="lni-leaf"></i>
+              </div>
+              <div class="colmun-title">
+                <h5>Premium Pass</h5>
+              </div>
+              <div class="price">
+                <h2>$68</h2>
+                <p>452 Tickets Available</p>
+              </div>
+              <div class="pricing-list">
+                <ul>
+                  <li><i class="lni-check-mark-circle"></i><span class="text">Entrance</span></li>
+                  <li><i class="lni-check-mark-circle"></i><span class="text">Coffee Break</span></li>
+                  <li><i class="lni-close"></i><span class="text">Lunch on all days</span></li>
+                  <li><i class="lni-check-mark-circle"></i><span class="text">Access to all areas</span></li>
+                  <li><i class="lni-check-mark-circle"></i><span class="text">Certificate</span></li>
+                  <li><i class="lni-close"></i><span class="text">Workshop</span></li>
+                </ul>
+              </div>
+              <a href="#" class="btn btn-common">Buy Ticket</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- Ticket Pricing Area End -->
+
+    <!-- Blog Section Start -->
+    <section id="aboutus" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 flex" >
+              <img class="fadeInDown" src="../img/index/about/8.png" style="display: block; margin-left: auto; margin-right: auto; width:100%;">
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 flex" style="flex-direction: column; margin:2vw;">
+              <br class="mobile">
+              <h4 class=" section-title fadeInDownHeader" style="font-size:34px; color:#1A85E5 !important;" data-wow-delay="0.2s" >About Us</h4>
+              
+              <p class="aboutus wow fadeInDown" data-wow-delay="0.2s" style="text-align:justify; font-size:30px !important;">
+                Ascent is a decentralized platform provider for peer tutoring platforms from each school (partner platforms), who will be utilising the sophisticated functionalities and content management systems of this website. 
+                Our partner platforms will be autonomously run at the school level by your own schoolmates who are managing them. This ensures that not only will your school's platform be directly personalised to your needs, but that tutors and tutees will be drawn from the same database localised to your school &mdash; allowing for learning to be optimised. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <h4 class="section-title fadeInDownHeader" style="font-size:32px; color:#1A85E5 !important; text-align:center; width:100%" data-wow-delay="0.2s">I'm Interested! What Do I Do Next?</h4>
+            
+      <!-- Main Carousel Section Start -->
+      
+      <div id="carousel2" class="carousel slide" data-ride="carousel" data-interval="false">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel2" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel2" data-slide-to="1"></li>
+          <li data-target="#carousel2" data-slide-to="2"></li>
+          <li data-target="#carousel2" data-slide-to="3"></li>
+          <li data-target="#carousel2" data-slide-to="4"></li>
+          <li data-target="#carousel2" data-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block mx-auto" style="max-width:600px; width:90vw" src="../img/index/Website recruitment/website recruitment-01.png" alt="First slide">
+          </div>
+          <div class="carousel-item" >
+            <img class="d-block mx-auto" style="max-width:600px; width:90vw" src="../img/index/Website recruitment/website recruitment-02.png" alt="First slide">
+            <button class="button2"> 
+              <a class="nav-link button-text2" href="#peertutoring">
+                  Peer Tutoring
+              </a>
+              </button> 
+          </div>
+          <div class="carousel-item" >
+            <img class="d-block mx-auto" style="max-width:600px; width:90vw" src="../img/index/Website recruitment/website recruitment-03.png" alt="First slide">
+          </div>
+          <div class="carousel-item" >
+            <img class="d-block mx-auto" style="max-width:600px; width:90vw" src="../img/index/Website recruitment/website recruitment-04.png" alt="First slide">
+          </div>
+          <div class="carousel-item" >
+            <img class="d-block mx-auto" style="max-width:600px; width:90vw" src="../img/index/Website recruitment/website recruitment-05.png" alt="First slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+          <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-left" style="font-size: 50px;"></i></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+          <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-right" style="font-size: 50px;"></i></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- Main Carousel Section End -->
+    </section>
+    <!-- Blog Section End -->
+
+    <!-- Map Section Start -->
+    <!-- <section id="google-map-area">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div id="conatiner-map"></div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- Map Section End -->
+
+    <!-- Contact Us Section -->
+    <section id="contactus" class="section-padding">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Drop A Message</h1>
+              <p class="wow fadeInDown" data-wow-delay="0.2s">Have an interesting idea, suggestion or feedback?</p>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-12 col-xs-12">
+            <div class="container-form wow fadeInLeft" data-wow-delay="0.2s">
+              <div class="form-wrapper">
+                <form role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator" action="./newsletter-signup">
+                  <div class="row">
+                    <div class="col-md-6 form-line">
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="name" name="firstname" placeholder="First Name" required data-error="Please enter your name">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 form-line">
+                      <div class="form-group">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" required data-error="Please enter your Email" autocorrect="off" autocapitalize="none">
+                        <div class="help-block with-errors"></div>
+                      </div> 
+                    </div>
+                    <div class="col-md-12 form-line">
+                      <div class="form-group">
+                        <input type="tel" class="form-control" id="msg_subject" name="subject" placeholder="Subject" required data-error="Please enter your message subject" autocorrect="off" autocapitalize="none">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <textarea class="form-control" rows="4" id="message" name="message" placeholder='Message' required data-error="Write your message"></textarea>
+                      </div>
+                      <div class="form-submit">
+                        <button type="submit" onclick="sendMessage()" class="btn btn-common" id="form-submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Us Now</button>
+                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Us Section End -->
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+    	<i class="lni-chevron-up"></i>
+    </a>
+
+    <div id="preloader">
+      <div class="sk-circle">
+        <div class="sk-circle1 sk-child"></div>
+        <div class="sk-circle2 sk-child"></div>
+        <div class="sk-circle3 sk-child"></div>
+        <div class="sk-circle4 sk-child"></div>
+        <div class="sk-circle5 sk-child"></div>
+        <div class="sk-circle6 sk-child"></div>
+        <div class="sk-circle7 sk-child"></div>
+        <div class="sk-circle8 sk-child"></div>
+        <div class="sk-circle9 sk-child"></div>
+        <div class="sk-circle10 sk-child"></div>
+        <div class="sk-circle11 sk-child"></div>
+        <div class="sk-circle12 sk-child"></div>
+      </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.5/socket.io.js'></script>
+    <script src="/js/index/jquery-min.js"></script>
+    <script src="/js/index/popper.min.js"></script>
+    <script src="/js/index/bootstrap.min.js"></script>
+    <script src="/js/index/jquery.countdown.min.js"></script>
+    <script src="/js/index/jquery.nav.js"></script>
+    <script src="/js/index/jquery.easing.min.js"></script>
+    <script src="/js/index/wow.js"></script>
+    <script src="/js/index/jquery.slicknav.js"></script>
+    <script src="/js/index/nivo-lightbox.js"></script>
+    <script src="/js/index/main.js"></script>
+    <script src="/js/index/form-validator.min.js"></script>
+    <script src="/js/index/contact-form-script.min.js"></script>
+    <script>
+      var socket = io("http://68.183.238.136/");
+
+      function sendMessage() {
+        socket.emit("messageSent", {
+          "name": document.getElementById("name").value,
+          "email": document.getElementById("email").value,
+          "subject": document.getElementById("msg_subject").value,
+          "message": document.getElementById("message").value
+        })
+      }
+
+    </script>
+    <script>
+      $('div.school-card').click(function() {
+        $(this).closest('.card').toggleClass('hover');
+        $(this).css('transform, rotateY(180deg)');;
+      });
+
+function animateValue(id, start, duration) {
+  var obj = document.getElementById(id);
+    var end=parseInt(obj.innerHTML);
+    console.log(end); 
+    if (start === end) return;
+      var range = end - start;
+      var current = start;
+      var increment = end > start? 1 : -1;
+      var stepTime = Math.abs(Math.floor(duration / range));
+      var timer = setInterval(function() {
+          current += increment;
+          obj.innerHTML = current;
+          if (current == end) {
+              clearInterval(timer);
+          }
+      }, stepTime);
+}
+
+function checkvisible( elm ) { 	
+  var vpH = $(window).height(), // Viewport Height 		
+  st = $(window).scrollTop(), // Scroll Top 		
+  y = $(elm).offset().top, 		
+  h = $(elm).height(); 		 	
+  return (y+h > st && y < (vpH + st)); 
+}
+var done1=0
+function animate1(){
+  if(done1==0 && checkvisible(document.getElementById("numberMentors"))){
+    animateValue("numberMentors", 0, 1000);
+    done1=1
+  }
+}
+setInterval(animate1, 50);
+
+var done2=0
+function animate2(){
+  if(done2==0 && checkvisible(document.getElementById("numberMentees"))){
+    animateValue("numberMentees", 0, 1000);
+    done2=1
+  }
+}
+setInterval(animate2, 50);
+
+var done3=0
+function animate3(){
+  if(done3==0 && checkvisible(document.getElementById("numberSubjects"))){
+    animateValue("numberSubjects", 0, 1000);
+    done3=1
+  }
+}
+setInterval(animate3, 50);
+
+    </script>
+    <!-- <script src="/js/index/map.js"></script>
+    <script type="text/javascript" src="/maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script> -->
+      
+  </body>
+</html>

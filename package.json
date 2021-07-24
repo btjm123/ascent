@@ -1,0 +1,32 @@
+{
+  "name": "verity",
+  "version": "1.0.0",
+  "description": "Peer tutoring platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benn tan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.8.0",
+    "lodash": "^4.17.20",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.8",
+    "nouislider": "^14.6.3",
+    "secure-env": "^1.2.0",
+    "socket.io": "^3.0.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btjm123/verity.git"
+  },
+  "bugs": {
+    "url": "https://github.com/btjm123/verity/issues"
+  },
+  "homepage": "https://github.com/btjm123/verity#readme"
+}
